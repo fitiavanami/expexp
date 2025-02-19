@@ -1,0 +1,43 @@
+.col1{
+    background-color: cornsilk;
+}
+.col2{
+    background-color: rgb(255, 254, 254);
+}
+.container{
+    display: flex;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.pt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 80%;
+}
+.para{
+    display: flex;
+}
+/*.pt1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.pt2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+.pt3{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.pt4{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}*/
