@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    width: 100%;
+    min-height: 20vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+.logo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.loc
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 25px;
+    font-size: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.bt{
+    border-radius: 15px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 25px;
+    width: 190px;
+    
+}
+
+header div ul{
+    display: grid;
+    grid-template-columns: repeat(4,130px);
+}
+header div input i{
+    display: grid;
+    grid-template-columns: repeat(2);
+}
+a:hover{
+    background: orangered;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+}
+.loc{
+    padding-right: 1327px;
+    margin-top: -28px;
+    margin-left: 15px;
+}
+.logo{
+    padding-right: 1125px;
+}
+.search{
+    padding-right: 864px;
+    margin-left: 922px;
+    margin-top: -34px;
+}
+#flc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fb{
+    width: 200px;
+    height: 200px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    
+}
+.fb img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    margin: 0px;
+}
+.fb1{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.fb1 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    margin: 0px;
+}
+.fb2{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.fb2 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    margin: 0px;
+}
+.fb3{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.fb3 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    margin: 0px;
+}
+.fb4{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.fb4 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    margin: 0px;
+}
+.fb5{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.tex1{
+    padding-top: 50px;
+    margin-top: -220px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 70px;
+    
+}
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon{
+    margin-top: -200px;
+    margin-left: 154px;
+    color: orangered;
+    
+}
+button{
+    font-size: 24px;
+    background: orangered;
+    border: none;
+    margin-bottom: 5px;
+    
+}
+button:hover{
+    padding: 5px;
+    transition: 0.6s;
+}
+i:hover{
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+.prix{
+    margin-top: -182px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-right: 50px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+hr{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h2{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    cursor: default;
+    animation-delay: 0.5s;
+    
+}
+.pc{
+    background: url(gros-plan-du-directeur-ventes-costume-noir-vendant-voiture-au-client_146671-14738\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+    min-height: 500px;
+    border-radius: 35px;
+    margin-top: -210px;
+}
+.pc.anim{
+    animation-delay: 0.4s;
+}
+.anim{
+    opacity: 0;
+    transform: translateX(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.col1{
+    background-color: cornsilk;
+    margin-top: 20px;
+}
+.col2{
+    background-color: rgb(236, 228, 228);
+}
+.container{
+    display: flex;
+    font-family: Arial, sans-serif;
+
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.pt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 80%;
+}
+.para{
+    display: flex;
+    float: inline-end;
+    margin-left: 30px;
+}
+.start{
+    font-size: 20px;
+    margin: 25px;
+    padding: 10px;
+    background: white;
+
+}
+.tk{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.tk2{
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+video{
+    margin-left: 60px;
+    margin-top: 180px;
+}
+.pt1{
+    margin: 20px;
+}
+.pt2{
+    margin: 20px;
+}
+.pt3{
+    margin: 20px;
+}
+.pt4{
+    margin: 20px;
+}
+.bts{
+    margin-ri: ;
+}
