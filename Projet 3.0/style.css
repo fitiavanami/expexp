@@ -305,3 +305,298 @@ video{
 .bts{
     margin-ri: ;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+   .head {
+    text-align: center;
+      padding: 15px 15px;
+      background: linear-gradient(135deg, rgb(93, 170, 170),
+    #333);   /*arriere plan coloré*/
+      color: black;
+    }
+   
+    .footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .sliderContent {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .testimonials-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+  }
+
+  .testimonial {
+    width: 500px;
+    height: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    opacity: 0;
+    transform: translateX(100%) scale(0.8);
+    animation: slide 20s infinite; 
+  }
+
+  .testimonals-title h2 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 24px;
+    display: inline-block;
+ }
+ 
+ .line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    margin-left:  10px;
+ }
+
+  .testimonial:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  .testimonial:nth-child(2) {
+    animation-delay: 5s;
+  }
+
+  .testimonial:nth-child(3) {
+    animation-delay: 10s;
+  }
+
+  .testimonial:nth-child(4) {
+    animation-delay: 15s;
+  }
+
+  #donload {
+    background-color: #111;
+    padding: 50px 0;
+    color: white;
+  }
+  /* DOWNLOAD+  BARRE DE RECHERCHE */
+
+ .text-container {
+    text-align: left;
+    font-size:larger;
+    height: 50px;
+    vertical-align:text-bottom;
+    margin-top: 8%;
+    margin-left:4%;
+  }
+    
+  .text-content {
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+  }
+    
+  .image-content {
+    width: 150%;
+    height: 150%;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 400%;
+    margin-top: -30%;
+    margin-left: 30px;
+  }
+    
+  .image-content img {
+    max-width: 200%;
+    height: auto;
+  }
+    
+  .store-buttons {
+    width: 9000px;
+    margin-right: 50px;
+    border: 2Opx;
+    height: -40px;
+  }
+  
+  .shoot img {
+    width: 8%;
+    height: 8%;
+    transition: transform 0.3s;
+  }  
+  .shoot img:hover {
+    transform: scale(1.2);
+  }
+  .newsletter {
+       margin-top: 8%;
+       margin-left: 20%;
+       display: flex;
+       align-items: center;
+  }
+    
+  .newsletter input {
+   flex: 1;
+   padding: 10px;
+   border: 0px;
+   border-radius: 10px;
+  }
+    
+  .newsletter button {
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   padding: 10px;
+   margin-left: 10px;
+   margin-right: 20px;
+   cursor: pointer;
+  }
+    
+  .subscribe-container {
+   display: flex;
+   align-items: center;
+   gap: 200px;
+  }
+    
+  .subscribe-container input {
+   flex-grow: 4;
+    
+  }
+    
+  .subscribe-container button  {
+  margin-left: 5;
+  }
+      
+  .subscribe-box button:hover {
+   background-color: #333;
+  }
+
+  /*Footer*/
+footer {
+  background-color: rgb(93, 170, 170);
+  color:white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  margin: 10px;
+  padding: 0%;
+}
+
+.footer-section {
+  margin: 0px;
+  padding:  0px;
+  vertical-align: bottom;
+  font-size: larger;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+   
+.social-icons {
+  display: flex;
+  gap: 100px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.sub {
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.final {
+  text-align: center;
+}
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateX(100%) scale(0.8);
+      z-index: 0;
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(50%) scale(0.8);
+      z-index: 0;
+    }
+    30% {
+      opacity: 1;
+      transform: translateX(50%) scale(0.8);
+      z-index: 1;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      z-index: 2;
+    }
+    70% {
+      opacity: 1;
+      transform: translateX(-50%) scale(0.8);
+      z-index: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-50%) scale(0.8);
+      z-index: 0;
+    }
+  }
+
+  .profile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3.5rem;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 3px solid #2d88c7;
+  }
+
+  .name {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #2d88c7;
+    margin-bottom: 5px;
+  }
+
+  .asa {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-style: italic;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  .h2{/*div vaovao fa nhifandry nt bal h2*/
+    color: #111;
+  }
